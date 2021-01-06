@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <script src="validation.js" ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="validation_style_sheet.css">
+    <title>java Forom Validation</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <h1 class="formHeading">Validation Form</h1>
+        <form action="" onsubmit="event.preventDefault(); onFormSubmit();" onsubmit="return(validate())" name="myform" method="POST">
+        <div class="items name_cont">
+                <label for="name"><h1>Name:</h1></label>
+                <input type="text" id="idname" name="firstname" placeholder="Enter Name" value="">
+                <span  id="fname"></span>
+        </div>
+        <div class="items email_cont">
+            <label for="name"><h1>Email:</h1></label>
+            <input type="text" id="youremail" placeholder="Enter email" value="">
+            <span  id="emails"></span>
+        </div>
+    <div class="items address_cont">
+        <label for="name"><h1>Your Salary:</h1></label>
+        <input type="text" id="yourSalary" placeholder="Enter salary" value="">
+        <span  id="sp_address"></span>
+   </div>
+   <div class="items city_cont">
+    <label for="name"><h1>City:</h1></label>
+    <select id="enterCity">
+        <option value="-1">Select</option>
+        <option value="karachi">karachi</option>
+        <option value="Lahore">Lahore</option>
+        <option value="FaisalAbad">Fsd</option>
+        <option value="Islamabad">Isb</option>
+        <option value="Kasur">Kasur</option>
+        <option value="Multan">Multan</option>
+    </select>
+    <span  id="spanCity"></span>
+</div>
+<input type="submit" value="Submit" id="sbmit_button">
+
+</form>
+<div class="table">
+    <table id="deatilsTable">
+        <thead id="tableheading">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Salary</th>
+            <th>City</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+}
+.wrapper{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightgreen;
+    
+}
+#fname{
+    color: red;
+}
+#emails{
+    color: red;
+}
+#sp_address{
+    color: red;
+}
+#spanCity{
+    color: red;
+}
+.formHeading{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    background-color: crimson;
+}
+h1{
+    font-size: 18px;
+    text-align: left;
+    color: crimson;
+}
+.items{
+    display: block;
+    width: 50%;
+    border: 1px solid #eee;
+    padding: 5px 0 5px 10px;
+    margin: 5px auto;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    border-left: 5px solid crimson;
+}
+label{
+    display: block;
+    width: 100%;
+}
+input{
+    outline: none;
+    border: none;
+    background-color: white;
+    height: 30px;
+    font-size: 16px;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+}
+.city_cont select{
+    outline: none;
+    width: 100px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.sbmt_btn{
+    width: 30%;
+    border-radius: unset;
+    -webkit-border-radius: unset;
+    -moz-border-radius: unset;
+    -ms-border-radius: unset;
+    -o-border-radius: unset;
+}
+form{
+    padding: 0;
+    overflow: hidden;
+}
+input[type=submit]{
+    width: 17%;
+    height: 40px;
+    background-color: crimson;
+    margin: 0 319px 0 0;
+    float: right;
+    color: white;
+    
+}
+.table{
+    width:100% ;
+    margin: 40px 0 0 0;
+
+    
+}
+#deatilsTable{
+    background-color: white;
+    width: 100%;
+    
+}
+#tableheading{
+    background-color:crimson;
+    color: white;
+}
